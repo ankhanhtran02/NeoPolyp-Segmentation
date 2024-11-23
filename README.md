@@ -20,5 +20,6 @@ To infer an image, follow these steps:
    ```cd NeoPolyp-Segmentation```
 3. Download the model at [this link](https://drive.google.com/file/d/1bRVc1ANpCVF4XSimFy3Gf-W8kgunfFm4/view?usp=sharing) and add it to the "model" directory.
 4. Infer an image:\
-   ```python3 infer.py --image_path image.jpeg```
+   ```python3 infer.py --image_path image.jpeg```\
+
 The output will be saved as "prediction.png" in your working directory.
